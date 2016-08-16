@@ -1,5 +1,4 @@
 # cello-interface
-collab work for 2/2017
 
 Note: There are two main patches provided. One is the main cello-controller patch, and the other is for simple audio processing tests.
 * Main Patch: cello-controller.maxpat 
