@@ -211,7 +211,7 @@
 					"outlettype" : [ "int", "int" ],
 					"patching_rect" : [ 36.0, 133.0, 34.0, 22.0 ],
 					"style" : "",
-					"text" : "t 1 0"
+					"text" : "t 1 3"
 				}
 
 			}
