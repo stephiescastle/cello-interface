@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 108.0, 79.0, 1499.0, 933.0 ],
+		"rect" : [ -30.0, 143.0, 1499.0, 933.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -10626,13 +10626,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-75",
-					"linecount" : 9,
+					"linecount" : 6,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1007.5, 576.444702, 211.0, 127.0 ],
+					"patching_rect" : [ 1007.5, 576.444702, 211.0, 87.0 ],
 					"style" : "",
-					"text" : "3.  hook up an arduino with IR sensor\n\n(5. ramp in effects mix from old number to new one so it's not so sudden and clicky)\n\n6. problem with initial sensor value. sensor overrides the default frozen value."
+					"text" : "\n\n(5. ramp in effects mix from old number to new one so it's not so sudden and clicky)\n\n"
 				}
 
 			}
@@ -13349,49 +13349,49 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "effects.maxpat",
-				"bootpath" : "~/repos/pieces/cello-interface",
+				"bootpath" : "~/repos/pieces/cello-interface/components",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sceneselect.maxpat",
-				"bootpath" : "~/repos/pieces/cello-interface",
+				"bootpath" : "~/repos/pieces/cello-interface/components",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "fadeinout.maxpat",
-				"bootpath" : "~/repos/pieces/cello-interface",
+				"bootpath" : "~/repos/pieces/cello-interface/components",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "groovecontrols.maxpat",
-				"bootpath" : "~/repos/pieces/cello-interface",
+				"bootpath" : "~/repos/pieces/cello-interface/components",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "rate.maxpat",
-				"bootpath" : "~/repos/pieces/cello-interface",
+				"bootpath" : "~/repos/pieces/cello-interface/components",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "stereogain.maxpat",
-				"bootpath" : "~/repos/pieces/cello-interface",
+				"bootpath" : "~/repos/pieces/cello-interface/components",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "stereoxfade.maxpat",
-				"bootpath" : "~/repos/pieces/cello-interface",
+				"bootpath" : "~/repos/pieces/cello-interface/components",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "thru.maxpat",
-				"bootpath" : "~/repos/pieces/cello-interface",
+				"bootpath" : "~/repos/pieces/cello-interface/components",
 				"type" : "JSON",
 				"implicit" : 1
 			}
