@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 34.0, 79.0, 1529.0, 933.0 ],
+		"rect" : [ 34.0, 79.0, 1069.0, 933.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -13407,13 +13407,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-59",
-					"linecount" : 2,
+					"linecount" : 3,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 86.75, 262.0, 111.0, 33.0 ],
+					"patching_rect" : [ 91.439575, 262.0, 111.0, 47.0 ],
 					"style" : "",
-					"text" : "we have 8 scenes, so 9 turns it off"
+					"text" : "we have 28 scenes, so 29 turns it off"
 				}
 
 			}
@@ -13706,9 +13706,9 @@
 					"numinlets" : 5,
 					"numoutlets" : 4,
 					"outlettype" : [ "int", "", "", "int" ],
-					"patching_rect" : [ 50.0, 168.0, 71.0, 22.0 ],
+					"patching_rect" : [ 50.0, 168.0, 77.0, 22.0 ],
 					"style" : "",
-					"text" : "counter 1 9"
+					"text" : "counter 1 29"
 				}
 
 			}
