@@ -7316,7 +7316,7 @@
 					"numinlets" : 5,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 138.925934, 699.444641, 114.25, 22.0 ],
+					"patching_rect" : [ 150.0, 699.444641, 114.25, 22.0 ],
 					"style" : "",
 					"text" : "stereoxfade"
 				}
@@ -8084,7 +8084,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
-					"patching_rect" : [ 1466.300049, 147.889465, 232.0, 22.0 ],
+					"patching_rect" : [ 1466.300049, 147.889465, 233.0, 22.0 ],
 					"style" : "",
 					"text" : "buffer~ scene1b plate_2_3_Distort_1.wav"
 				}
@@ -12241,7 +12241,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 549.0, 114.0, 419.0, 848.0 ],
+						"rect" : [ 1176.0, 80.0, 419.0, 848.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -12268,6 +12268,7 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-64",
@@ -12340,9 +12341,9 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 128.0, 908.0, 105.0, 22.0 ],
+									"patching_rect" : [ 128.0, 908.0, 120.0, 22.0 ],
 									"style" : "",
-									"text" : "value fadein27 10"
+									"text" : "value fadein27 3000"
 								}
 
 							}
@@ -12420,7 +12421,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 128.0, 840.0, 119.0, 22.0 ],
 									"style" : "",
-									"text" : "value fadein25 5000"
+									"text" : "value fadein25 3000"
 								}
 
 							}
@@ -12444,9 +12445,9 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 260.0, 808.0, 126.0, 22.0 ],
+									"patching_rect" : [ 260.0, 808.0, 134.0, 22.0 ],
 									"style" : "",
-									"text" : "value fadeout24 7000"
+									"text" : "value fadeout24 10000"
 								}
 
 							}
@@ -12782,9 +12783,9 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 18.0, 491.0, 101.0, 22.0 ],
+									"patching_rect" : [ 18.0, 491.0, 95.0, 22.0 ],
 									"style" : "",
-									"text" : "value gain15 110"
+									"text" : "value gain15 95"
 								}
 
 							}
@@ -12927,7 +12928,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 260.0, 394.0, 126.0, 22.0 ],
 									"style" : "",
-									"text" : "value fadeout12 1000"
+									"text" : "value fadeout12 5000"
 								}
 
 							}
@@ -13133,9 +13134,9 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 18.0, 178.0, 94.0, 22.0 ],
+									"patching_rect" : [ 18.0, 178.0, 89.0, 22.0 ],
 									"style" : "",
-									"text" : "value gain6 110"
+									"text" : "value gain6 95"
 								}
 
 							}
@@ -13341,9 +13342,9 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 260.0, 15.0, 119.0, 22.0 ],
+									"patching_rect" : [ 260.0, 15.0, 126.0, 22.0 ],
 									"style" : "",
-									"text" : "value fadeout1 7000"
+									"text" : "value fadeout1 10000"
 								}
 
 							}
@@ -14856,7 +14857,7 @@
 					"destination" : [ "obj-46", 4 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 148.425934, 739.0, 206.840607, 739.0 ],
+					"midpoints" : [ 159.5, 739.0, 206.840607, 739.0 ],
 					"source" : [ "obj-163", 0 ]
 				}
 
