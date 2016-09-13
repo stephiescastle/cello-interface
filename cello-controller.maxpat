@@ -7668,9 +7668,9 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
-									"patching_rect" : [ 260.0, 97.0, 32.0, 22.0 ],
+									"patching_rect" : [ 260.0, 97.0, 24.0, 22.0 ],
 									"style" : "",
-									"text" : "t 60"
+									"text" : "t 0"
 								}
 
 							}
@@ -8246,7 +8246,6 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-36",
@@ -11309,9 +11308,9 @@
 					"numinlets" : 6,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 620.900513, 425.084167, 113.0, 22.0 ],
+					"patching_rect" : [ 620.900513, 425.084167, 105.0, 22.0 ],
 					"style" : "",
-					"text" : "scale 60. 650. 0. 1."
+					"text" : "scale 0. 650. 0. 1."
 				}
 
 			}
