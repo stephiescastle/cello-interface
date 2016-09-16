@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 112.0, 79.0, 1415.0, 933.0 ],
+		"rect" : [ 131.0, 79.0, 973.0, 776.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -38,15 +38,217 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontsize" : 10.0,
+					"id" : "obj-685",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1185.577148, 343.584167, 137.0, 18.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 684.0, 247.0, 50.0, 18.0 ],
+					"style" : "",
+					"text" : "RESET"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.940227, 0.009844, 0.019296, 1.0 ],
+					"id" : "obj-684",
+					"maxclass" : "button",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 221.0, 147.0, 24.0, 24.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 687.0, 266.0, 23.0, 23.0 ],
+					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontsize" : 20.25001,
+					"id" : "obj-682",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1200.577148, 358.584167, 146.0, 52.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 333.671875, 18.0, 189.34375, 29.0 ],
+					"style" : "",
+					"text" : "Connect Device"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-639",
+					"maxclass" : "panel",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 526.0, 204.0, 128.0, 128.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ -2.0, 140.0, 980.0, 4.0 ],
+					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontsize" : 20.25001,
+					"id" : "obj-637",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1215.577148, 373.584167, 146.0, 29.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 333.671875, 503.5, 193.0, 29.0 ],
+					"style" : "",
+					"text" : "Audio"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bubble" : 1,
+					"bubbleside" : 2,
+					"fontsize" : 10.0,
+					"id" : "obj-635",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1245.577148, 403.584167, 137.0, 48.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 361.835938, 56.0, 150.0, 37.0 ],
+					"style" : "",
+					"text" : "First select \"usbmodem...\" port"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bubble" : 1,
+					"fontsize" : 10.0,
+					"id" : "obj-565",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1230.577148, 388.584167, 137.0, 33.0 ],
+					"presentation" : 1,
+					"presentation_linecount" : 2,
+					"presentation_rect" : [ 575.671875, 91.5, 112.0, 33.0 ],
+					"style" : "",
+					"text" : "Then click to connect device"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontsize" : 10.0,
+					"id" : "obj-564",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1230.577148, 388.584167, 137.0, 18.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 443.671875, 578.5, 54.0, 18.0 ],
+					"style" : "",
+					"text" : "VOLUME"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontsize" : 10.0,
+					"id" : "obj-563",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1215.577148, 373.584167, 137.0, 18.0 ],
+					"presentation" : 1,
+					"presentation_linecount" : 2,
+					"presentation_rect" : [ 330.671875, 578.5, 54.0, 29.0 ],
+					"style" : "",
+					"text" : "AUDIO ON/OFF"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontsize" : 10.0,
+					"id" : "obj-561",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1200.577148, 358.584167, 137.0, 18.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 330.671875, 291.0, 116.0, 18.0 ],
+					"style" : "",
+					"text" : "GO TO NEXT SCENE"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontsize" : 10.0,
+					"id" : "obj-560",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1185.577148, 343.584167, 137.0, 18.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 330.671875, 395.5, 49.5, 18.0 ],
+					"style" : "",
+					"text" : "ON/OFF"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontsize" : 20.25001,
+					"id" : "obj-559",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1200.577148, 358.584167, 146.0, 29.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 333.671875, 320.5, 193.0, 29.0 ],
+					"style" : "",
+					"text" : "Sensor Monitor"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontsize" : 20.25001,
+					"id" : "obj-557",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1185.577148, 343.584167, 146.0, 29.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 333.671875, 216.0, 189.34375, 29.0 ],
+					"style" : "",
+					"text" : "Current Scene"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontsize" : 10.0,
 					"id" : "obj-555",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 723.0, 151.0, 150.0, 20.0 ],
+					"patching_rect" : [ 1170.577148, 328.584167, 137.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 701.5, 223.0, 55.0, 20.0 ],
+					"presentation_rect" : [ 584.171875, 247.0, 50.0, 18.0 ],
 					"style" : "",
-					"text" : "Jump to:"
+					"text" : "SKIP TO:"
 				}
 
 			}
@@ -55,11 +257,11 @@
 					"bgfillcolor_angle" : 270.0,
 					"bgfillcolor_autogradient" : 0,
 					"bgfillcolor_color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-					"bgfillcolor_color1" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
-					"bgfillcolor_color2" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
+					"bgfillcolor_color1" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
+					"bgfillcolor_color2" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
 					"bgfillcolor_proportion" : 0.39,
 					"bgfillcolor_type" : "gradient",
-					"fontsize" : 20.0,
+					"fontsize" : 13.0,
 					"id" : "obj-552",
 					"items" : [ "Off", ",", "Scene", 1, ",", "Scene", 2, ",", "Scene", 3, ",", "Scene", 4, ",", "Scene", 5, ",", "Scene", 6, ",", "Scene", 7, ",", "Scene", 8, ",", "Scene", 9, ",", "Scene", 10, ",", "Scene", 11, ",", "Scene", 12, ",", "Scene", 13, ",", "Scene", 14, ",", "Scene", 15, ",", "Scene", 16, ",", "Scene", 17, ",", "Scene", 18, ",", "Scene", 19, ",", "Scene", 20, ",", "Scene", 21, ",", "Scene", 22, ",", "Scene", 23, ",", "Scene", 24, ",", "Scene", 25, ",", "Scene", 26, ",", "Scene", 27, ",", "Scene", 28 ],
 					"maxclass" : "umenu",
@@ -67,9 +269,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 39.0, 59.694717, 144.0, 31.0 ],
+					"patching_rect" : [ 39.0, 59.694717, 144.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 701.5, 246.444702, 132.0, 31.0 ],
+					"presentation_rect" : [ 587.171875, 266.0, 89.0, 23.0 ],
 					"style" : "",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -679,19 +881,6 @@
 					"patching_rect" : [ 308.828125, 705.944702, 34.0, 22.0 ],
 					"style" : "",
 					"text" : "gate"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-554",
-					"linecount" : 5,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 1219.5, 405.0, 156.0, 74.0 ],
-					"style" : "",
-					"text" : "build a way to close crossfade reciving if receive off message. and only do this if it's currrently play from 0."
 				}
 
 			}
@@ -6277,7 +6466,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 308.828125, 466.084167, 189.34375, 37.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 448.5, 313.5, 189.34375, 37.0 ],
+					"presentation_rect" : [ 383.0, 351.5, 189.34375, 42.0 ],
 					"size" : 650.0,
 					"style" : ""
 				}
@@ -8784,7 +8973,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 595.3125, 201.084183, 189.34375, 37.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 448.5, 96.110535, 189.34375, 37.0 ],
+					"presentation_rect" : [ 383.0, 399.110535, 189.34375, 10.0 ],
 					"size" : 650.0,
 					"style" : ""
 				}
@@ -8813,7 +9002,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 593.65625, 127.973648, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 448.5, 62.0, 24.0, 24.0 ],
+					"presentation_rect" : [ 546.34375, 95.0, 26.0, 26.0 ],
 					"style" : ""
 				}
 
@@ -8846,6 +9035,7 @@
 					"bgfillcolor_proportion" : 0.39,
 					"bgfillcolor_type" : "color",
 					"color" : [ 0.345098, 0.513725, 0.572549, 1.0 ],
+					"fontsize" : 16.0,
 					"id" : "obj-9",
 					"items" : [ "Bluetooth-Incoming-Port", ",", "Bluetooth-Modem", ",", "GWYDBOX-SPPDev", ",", "usbmodemfd121", ",", "Bluetooth-Modem", ",", 5, ",", 6, ",", 7 ],
 					"labelclick" : 1,
@@ -8856,7 +9046,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 635.65625, 127.973648, 149.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 485.5, 62.0, 149.0, 22.0 ],
+					"presentation_rect" : [ 333.671875, 95.0, 206.328125, 26.0 ],
 					"style" : "",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -8878,7 +9068,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 406.0, 156.0, 739.0, 480.0 ],
+						"rect" : [ 874.0, 453.0, 739.0, 480.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -9042,7 +9232,7 @@
 									"outlettype" : [ "int" ],
 									"patching_rect" : [ 251.0, 255.0, 24.0, 22.0 ],
 									"style" : "",
-									"text" : "t 1"
+									"text" : "t 0"
 								}
 
 							}
@@ -9055,7 +9245,7 @@
 									"outlettype" : [ "int" ],
 									"patching_rect" : [ 220.0, 255.0, 24.0, 22.0 ],
 									"style" : "",
-									"text" : "t 0"
+									"text" : "t 1"
 								}
 
 							}
@@ -12738,9 +12928,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 867.5, 135.584122, 84.0, 22.0 ],
+					"patching_rect" : [ 867.5, 135.584122, 85.0, 22.0 ],
 					"style" : "",
-					"text" : "loadmess 110"
+					"text" : "loadmess 157"
 				}
 
 			}
@@ -12754,7 +12944,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 867.5, 164.584122, 207.0, 28.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 454.5, 176.444702, 207.0, 28.0 ],
+					"presentation_rect" : [ 383.0, 534.5, 189.34375, 42.0 ],
 					"style" : ""
 				}
 
@@ -14297,7 +14487,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 253.5, 122.486824, 32.973648, 32.973648 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 386.0, 305.0, 54.0, 54.0 ],
+					"presentation_rect" : [ 333.671875, 351.5, 42.0, 42.0 ],
 					"style" : "",
 					"uncheckedcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "toggle"
@@ -14510,7 +14700,7 @@
 					"outlinecolor" : [ 0.572549, 0.27451, 0.027451, 0.4 ],
 					"patching_rect" : [ 50.0, 137.0, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 423.0, 239.0, 56.0, 56.0 ],
+					"presentation_rect" : [ 333.671875, 247.0, 42.0, 42.0 ],
 					"style" : ""
 				}
 
@@ -14550,7 +14740,7 @@
 					"bgfillcolor_color2" : [ 1.0, 0.393651, 0.000665, 1.0 ],
 					"bgfillcolor_proportion" : 0.39,
 					"bgfillcolor_type" : "gradient",
-					"fontsize" : 20.0,
+					"fontsize" : 30.0,
 					"id" : "obj-20",
 					"items" : [ "Off", ",", "Scene", 1, ",", "Scene", 2, ",", "Scene", 3, ",", "Scene", 4, ",", "Scene", 5, ",", "Scene", 6, ",", "Scene", 7, ",", "Scene", 8, ",", "Scene", 9, ",", "Scene", 10, ",", "Scene", 11, ",", "Scene", 12, ",", "Scene", 13, ",", "Scene", 14, ",", "Scene", 15, ",", "Scene", 16, ",", "Scene", 17, ",", "Scene", 18, ",", "Scene", 19, ",", "Scene", 20, ",", "Scene", 21, ",", "Scene", 22, ",", "Scene", 23, ",", "Scene", 24, ",", "Scene", 25, ",", "Scene", 26, ",", "Scene", 27, ",", "Scene", 28 ],
 					"maxclass" : "umenu",
@@ -14558,9 +14748,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 50.0, 341.444702, 144.0, 31.0 ],
+					"patching_rect" : [ 50.0, 341.444702, 144.0, 42.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 485.5, 251.5, 132.0, 31.0 ],
+					"presentation_rect" : [ 383.0, 247.0, 189.34375, 42.0 ],
 					"style" : "",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -14624,7 +14814,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 867.5, 267.194702, 45.0, 45.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 410.5, 167.944702, 45.0, 45.0 ],
+					"presentation_rect" : [ 333.671875, 534.5, 42.0, 42.0 ],
 					"style" : ""
 				}
 
@@ -21850,6 +22040,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-681", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-27", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-684", 0 ]
 				}
 
 			}
