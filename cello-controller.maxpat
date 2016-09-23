@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 122.0, 79.0, 977.0, 933.0 ],
+		"rect" : [ 67.0, 112.0, 977.0, 688.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -37,6 +37,24 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"bubble" : 1,
+					"fontsize" : 10.0,
+					"id" : "obj-553",
+					"linecount" : 5,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1245.577148, 403.584167, 137.0, 66.0 ],
+					"presentation" : 1,
+					"presentation_linecount" : 2,
+					"presentation_rect" : [ 575.671875, 387.610535, 270.0, 33.0 ],
+					"style" : "",
+					"text" : "After connecting the device, check here for movement.\n(move your hand in front of the sensor)"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-741",
 					"maxclass" : "newobj",
@@ -402,6 +420,7 @@
 				"box" : 				{
 					"annotation" : "",
 					"id" : "obj-707",
+					"ignoreclick" : 1,
 					"knobcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"maxclass" : "gain~",
 					"numinlets" : 1,
@@ -419,6 +438,7 @@
 				"box" : 				{
 					"annotation" : "",
 					"id" : "obj-706",
+					"ignoreclick" : 1,
 					"knobcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"maxclass" : "gain~",
 					"numinlets" : 1,
@@ -429,22 +449,6 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 715.233887, 279.0, 148.525085, 10.0 ],
 					"style" : ""
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-554",
-					"linecount" : 16,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 785.600037, 457.600006, 154.0, 221.0 ],
-					"presentation" : 1,
-					"presentation_linecount" : 15,
-					"presentation_rect" : [ 66.600037, 231.0, 163.0, 208.0 ],
-					"style" : "",
-					"text" : "put in longest fade out time and when clicking reset, have a timer that goes to it. \n\nbest case is to have timer of current scene that we were just in\n\nOr, if reset, can fadeout time be 0 or very short? - NO\n\n1. Make switch have a gate, so it won't listen for 2 seconds once it's hit the first time - DONE"
 				}
 
 			}
@@ -6843,6 +6847,7 @@
 				"box" : 				{
 					"bgcolor" : [ 0.095481, 0.100396, 0.100293, 1.0 ],
 					"id" : "obj-38",
+					"ignoreclick" : 1,
 					"knobcolor" : [ 1.0, 0.393651, 0.000665, 1.0 ],
 					"maxclass" : "slider",
 					"numinlets" : 1,
@@ -9351,6 +9356,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-31",
+					"ignoreclick" : 1,
 					"maxclass" : "slider",
 					"numinlets" : 1,
 					"numoutlets" : 1,
@@ -9422,7 +9428,7 @@
 					"color" : [ 0.345098, 0.513725, 0.572549, 1.0 ],
 					"fontsize" : 16.0,
 					"id" : "obj-9",
-					"items" : [ "Bluetooth-Incoming-Port", ",", "Bluetooth-Modem", ",", "GWYDBOX-SPPDev", ",", "usbmodemfd1211", ",", "Bluetooth-Modem", ",", 5, ",", 6, ",", 7 ],
+					"items" : [ "Bluetooth-Incoming-Port", ",", "Bluetooth-Modem", ",", "GWYDBOX-SPPDev", ",", "usbmodemfa131", ",", "Bluetooth-Modem", ",", 5, ",", 6, ",", 7 ],
 					"labelclick" : 1,
 					"maxclass" : "umenu",
 					"numinlets" : 1,
@@ -15146,6 +15152,7 @@
 					"bgcolor" : [ 1.0, 0.393651, 0.000665, 1.0 ],
 					"checkedcolor" : [ 0.572549, 0.27451, 0.027451, 0.4 ],
 					"id" : "obj-57",
+					"ignoreclick" : 1,
 					"maxclass" : "toggle",
 					"numinlets" : 1,
 					"numoutlets" : 1,
