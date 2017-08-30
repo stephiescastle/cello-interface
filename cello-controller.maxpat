@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 225.0, 198.0, 1381.0, 731.0 ],
+		"rect" : [ 225.0, 198.0, 978.0, 731.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -37,6 +37,45 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-370",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 721.0, 518.0, 150.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 703.0, 448.5, 50.0, 20.0 ],
+					"style" : "",
+					"text" : "speed"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-99",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 735.900513, 452.194702, 93.0, 22.0 ],
+					"style" : "",
+					"text" : "s sensor-speed"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-86",
+					"maxclass" : "newobj",
+					"numinlets" : 6,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 735.900513, 425.084167, 113.0, 22.0 ],
+					"style" : "",
+					"text" : "scale 0. 650. 1. 1.5"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"format" : 6,
 					"id" : "obj-382",
@@ -137,9 +176,9 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1461.038452, 3704.0, 87.0, 22.0 ],
+					"patching_rect" : [ 1461.038452, 3704.0, 92.0, 22.0 ],
 					"style" : "",
-					"text" : "r sensor-xfade"
+					"text" : "r sensor-speed"
 				}
 
 			}
@@ -207,7 +246,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1308.0, 3765.334229, 50.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 950.0, 273.0, 50.0, 22.0 ],
+					"presentation_rect" : [ 703.0, 470.5, 50.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -8948,7 +8987,7 @@
 					"color" : [ 0.345098, 0.513725, 0.572549, 1.0 ],
 					"fontsize" : 16.0,
 					"id" : "obj-9",
-					"items" : [ "lpss-serial2", ",", "lpss-serial1", ",", "Bluetooth-Incoming-Port", ",", "usbmodemfa131", ",", "Bluetooth-Modem", ",", 5, ",", 6, ",", 7 ],
+					"items" : [ "lpss-serial2", ",", "lpss-serial1", ",", "Bluetooth-Incoming-Port", ",", "usbmodem211", ",", "Bluetooth-Modem", ",", 5, ",", 6, ",", 7 ],
 					"labelclick" : 1,
 					"maxclass" : "umenu",
 					"numinlets" : 1,
@@ -13338,6 +13377,20 @@
 						"subpatcher_template" : "",
 						"boxes" : [ 							{
 								"box" : 								{
+									"id" : "obj-19",
+									"linecount" : 4,
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 401.0, 770.0, 43.0, 62.0 ],
+									"style" : "",
+									"text" : "value oldfadein23 3000"
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"id" : "obj-64",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
@@ -13488,7 +13541,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 128.0, 770.0, 119.0, 22.0 ],
 									"style" : "",
-									"text" : "value fadein23 3000"
+									"text" : "value fadein23 900"
 								}
 
 							}
@@ -15638,6 +15691,17 @@
 					"destination" : [ "obj-234", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"order" : 1,
+					"source" : [ "obj-140", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-86", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"order" : 0,
 					"source" : [ "obj-140", 1 ]
 				}
 
@@ -18788,9 +18852,20 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-366", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"order" : 1,
+					"source" : [ "obj-380", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-382", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"order" : 0,
 					"source" : [ "obj-380", 0 ]
 				}
 
@@ -20652,9 +20727,20 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-379", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"order" : 0,
+					"source" : [ "obj-533", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-547", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"order" : 1,
 					"source" : [ "obj-533", 0 ]
 				}
 
@@ -22354,6 +22440,15 @@
 					"disabled" : 0,
 					"hidden" : 1,
 					"source" : [ "obj-8", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-99", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-86", 0 ]
 				}
 
 			}
