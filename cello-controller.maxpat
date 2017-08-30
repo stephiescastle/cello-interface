@@ -7034,7 +7034,7 @@
 						"loopend" : [ 0.0, "ms" ],
 						"loopstart" : [ 0.0, "ms" ],
 						"mode" : "basic",
-						"originallength" : [ 0.0, "ticks" ],
+						"originallength" : [ 8188.277401, "ticks" ],
 						"originaltempo" : 120.0,
 						"phase" : [ 0.0, "ticks" ],
 						"pitchcorrection" : 0,
@@ -7185,7 +7185,7 @@
 						"loopend" : [ 0.0, "ms" ],
 						"loopstart" : [ 0.0, "ms" ],
 						"mode" : "basic",
-						"originallength" : [ 0.0, "ticks" ],
+						"originallength" : [ 77279.998582, "ticks" ],
 						"originaltempo" : 120.0,
 						"phase" : [ 0.0, "ticks" ],
 						"pitchcorrection" : 0,
@@ -7214,7 +7214,7 @@
 						"loopend" : [ 0.0, "ms" ],
 						"loopstart" : [ 0.0, "ms" ],
 						"mode" : "basic",
-						"originallength" : [ 0.0, "ticks" ],
+						"originallength" : [ 75374.496576, "ticks" ],
 						"originaltempo" : 120.0,
 						"phase" : [ 0.0, "ticks" ],
 						"pitchcorrection" : 0,
@@ -13767,7 +13767,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 869.0, 312.0, 443.0, 919.0 ],
+						"rect" : [ 1259.0, 169.0, 443.0, 919.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -15081,7 +15081,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 91.439575, 262.0, 111.0, 47.0 ],
 					"style" : "",
-					"text" : "we have 28 scenes, so 29 turns it off"
+					"text" : "we have 26 scenes, so 27 turns it off"
 				}
 
 			}
@@ -15335,7 +15335,7 @@
 					"outlettype" : [ "bang", "" ],
 					"patching_rect" : [ 50.0, 262.0, 43.0, 22.0 ],
 					"style" : "",
-					"text" : "sel 29"
+					"text" : "sel 27"
 				}
 
 			}
