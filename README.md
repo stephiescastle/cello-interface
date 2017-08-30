@@ -1,3 +1,3 @@
-# cello-interface
+# Stellar Remnants Cello Control Interface
 
-Details location in [Tech Packet]().
+Details in [Tech Packet](https://github.com/stephiescastle/cello-interface/blob/master/StellarRemnants_TechPacket.pdf).
