@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 997.0, 180.0, 978.0, 731.0 ],
+		"rect" : [ 250.0, 200.0, 978.0, 731.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -6692,9 +6692,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
-					"patching_rect" : [ 1466.300049, 948.03418, 179.0, 22.0 ],
+					"patching_rect" : [ 1466.300049, 948.03418, 249.0, 22.0 ],
 					"style" : "",
-					"text" : "buffer~ scene22 Scene_24.wav"
+					"text" : "buffer~ scene22 Scene_24_22_Revised.wav"
 				}
 
 			}
