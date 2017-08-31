@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 225.0, 198.0, 978.0, 731.0 ],
+		"rect" : [ 997.0, 180.0, 978.0, 731.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -37,6 +37,19 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-374",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1456.0, 3860.0, 43.0, 22.0 ],
+					"style" : "",
+					"text" : "loop 1"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-370",
 					"maxclass" : "comment",
@@ -69,9 +82,9 @@
 					"numinlets" : 6,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 735.900513, 425.084167, 113.0, 22.0 ],
+					"patching_rect" : [ 735.900513, 425.084167, 119.0, 22.0 ],
 					"style" : "",
-					"text" : "scale 0. 650. 1. 1.5"
+					"text" : "scale 0. 650. 0.3 1.7"
 				}
 
 			}
@@ -13348,7 +13361,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 1375.0, 145.0, 443.0, 919.0 ],
+						"rect" : [ 1889.0, 322.0, 519.0, 919.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -13396,7 +13409,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 18.0, 872.0, 101.0, 22.0 ],
+									"patching_rect" : [ 18.0, 872.0, 102.0, 22.0 ],
 									"style" : "",
 									"text" : "value gain26 110"
 								}
@@ -13437,7 +13450,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 18.0, 838.0, 101.0, 22.0 ],
 									"style" : "",
-									"text" : "value gain25 110"
+									"text" : "value gain25 100"
 								}
 
 							}
@@ -13515,7 +13528,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 18.0, 770.0, 101.0, 22.0 ],
 									"style" : "",
-									"text" : "value gain23 110"
+									"text" : "value gain23 100"
 								}
 
 							}
@@ -13541,7 +13554,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 128.0, 770.0, 119.0, 22.0 ],
 									"style" : "",
-									"text" : "value fadein23 900"
+									"text" : "value fadein23 1500"
 								}
 
 							}
@@ -13942,9 +13955,9 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 18.0, 389.0, 101.0, 22.0 ],
+									"patching_rect" : [ 18.0, 389.0, 102.0, 22.0 ],
 									"style" : "",
-									"text" : "value gain12 110"
+									"text" : "value gain12 100"
 								}
 
 							}
